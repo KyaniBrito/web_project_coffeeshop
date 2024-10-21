@@ -51,7 +51,7 @@
   color: black;
 }
 
-.title {
+.header__title {
   color: black;
   max-width: 709px;
   margin: 0;
@@ -74,7 +74,7 @@
   color: #2f80ed;
 }
 
-.description {
+.header__description {
   margin: 0;
   margin-top: 28px;
   max-width: 683px;
@@ -85,7 +85,7 @@
   line-height: 30px;
 }
 
-.image {
+.header__image {
   position: absolute;
   width: 646px;
   height: 568px;
@@ -105,7 +105,7 @@
   justify-content: space-between;
 }
 
-.header__footer_hour {
+.header__paragraph {
   font-weight: 500;
   font-style: normal;
   color: #838383;
