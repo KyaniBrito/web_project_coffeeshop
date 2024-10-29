@@ -2,10 +2,14 @@
   box-sizing: border-box;
   background-color: #0a2850;
   padding: 60px 80px 60px 80px;
+  position: relative;
+  overflow: hidden;
 }
 
 .footer__content {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer__logo {
@@ -26,8 +30,10 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   color: #fff;
+  padding: 0;
+  align-self: flex-end;
 }
 
 .footer__list {
@@ -46,8 +52,6 @@
 
 .footer__social {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .footer__social-icon {
@@ -75,10 +79,9 @@
   background-color: #2f80ed;
   width: 340px;
   height: 340px;
-  z-index: 0;
   position: absolute;
-  margin-top: -128px;
-  margin-left: -124px;
+  top: -128px;
+  left: -44px;
   overflow: clip;
 }
 
